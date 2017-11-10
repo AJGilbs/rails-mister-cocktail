@@ -13,10 +13,22 @@
 /* Logo */
 .navbar-wagon-brand img {
   height: 50px;
+
 }
 
 .navbar-wagon-brand {
   color: gray;
+  display: flex;
+  height: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navbar-wagon-brand p {
+  margin-bottom: 0px;
+  margin-left: 5px;
 }
 
 /* User Avatar */
@@ -79,3 +91,5 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+
